@@ -15,3 +15,9 @@ set listchars+=trail:. " show trailing spaces as dots
 
 " Searching
 set hlsearch
+
+" Word wrap without line break - http://www.vim.wikia.com/wiki/Word_wrap_without_line_breaks
+set wrap
+set linebreak
+set nolist  " list disables linebreak
+
